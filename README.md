@@ -1,5 +1,3 @@
-## Project Overview
-
 ### Structured Retail Products Pricing and Hedging
 
 This project focuses on designing and implementing structured retail products (SRPs) with specific payoff structures, aimed at providing contingent returns based on the performance of underlying financial securities. Utilizing advanced financial models, the project involves deriving optimal contract parameters and developing robust risk management strategies through hedging.
@@ -16,11 +14,7 @@ This project focuses on designing and implementing structured retail products (S
 2. **Formula Derivation and Contract Parameters:**
     - **Volatility Calculation:** Daily volatility (σ) using log returns, then annualized.
     - **Payoff Replication:** Long a call option at g and short a call option at G.
-    - **Strike Price Calculation:** Sg = S0(1 + g)^T and SG = S0(1 + G)^T.
+    - **Strike Price Calculation:** 
+        - \( S_g = S_0(1 + g)^T \)
+        - \( S_G = S_0(1 + G)^T \)
     - **Backtest Results:** Delta-Hedging strategy indicated potential effectiveness but revealed a final fund deficit, highlighting the need for enhanced risk management strategies.
-
-### Key Insights
-
-- **Volatility Analysis:** Essential for setting appropriate levels of g and G.
-- **Hedging Strategy:** Demonstrated through backtesting, underscoring the need for accurate market data and refined strategies.
-- **Interest Rate Sensitivity:** Addressed using the Vasicek model to account for stochastic interest rates and enhancing risk management with a Delta-Rho hedge.

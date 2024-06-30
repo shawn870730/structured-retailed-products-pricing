@@ -15,6 +15,6 @@ This project focuses on designing and implementing structured retail products (S
     - **Volatility Calculation:** Daily volatility (σ) using log returns, then annualized.
     - **Payoff Replication:** Long a call option at g and short a call option at G.
     - **Strike Price Calculation:** 
-        - \( S_g = S_0(1 + g)^T \)
-        - \( S_G = S_0(1 + G)^T \)
+        - $` S_g = S_0(1 + g)^T `$
+        - $` S_G = S_0(1 + G)^T `$
     - **Backtest Results:** Delta-Hedging strategy indicated potential effectiveness but revealed a final fund deficit, highlighting the need for enhanced risk management strategies.
